@@ -107,7 +107,7 @@ dmypy.json
 .pyre/
 
 ### Python Patch ###
-.venv/
+.env/
 
 ### Vagrant ###
 # General
