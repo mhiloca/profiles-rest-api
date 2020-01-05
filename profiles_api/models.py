@@ -41,6 +41,9 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
 
     objects = UserProfileManager()
 
+    class Meta:
+        verbose_name = 'User'
+
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['name', 'username']
 
